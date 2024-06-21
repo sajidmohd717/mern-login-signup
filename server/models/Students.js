@@ -6,5 +6,5 @@ const StudentSchema = new mongoose.Schema({
     password: String
 })
 
-const StudentModel = mongoose.model("students", StudentSchema)
+const StudentModel = mongoose.model("students", StudentSchema) // this is the collection
 module.exports = StudentModel
